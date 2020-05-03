@@ -27,8 +27,8 @@ header h4{
    color: black;
    text-align: right;
    margin-right: 0.5em;
-   font-style: italic;
 }
+
 /* Slideshow container */
 .slideshow {
   width: 100%;
@@ -62,7 +62,7 @@ background-color: black;
     text-align: right;
     padding: 10px 16px;
     text-decoration: none;
-    font-style: italic;
+    
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
     font-size: 17px;
     margin-top: -23px;
