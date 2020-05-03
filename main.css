@@ -32,12 +32,13 @@ header h4{
 /* Slideshow container */
 .slideshow {
   width: 100%;
-  height: 45em;
+  height: 60em;
   display:block;
     position: relative;
     margin: auto;
 overflow: hidden;
 margin-top: 4em;
+background-color: black;
   }
 .myslides{
     position: absolute;
@@ -77,6 +78,7 @@ margin-top: 4em;
   .inventory{
       margin-left: 2em;
       margin-top: auto;
+      text-align: center;
   }
   
   .inventory h2{
@@ -148,7 +150,7 @@ margin-top: 4em;
   }
 
   #innerSlide1{
-      background-image: url("asset/banner5.jpg");
+      background-image: url("asset/banner5 (2).jpg");
       position: absolute;
       top: 0;
       left: 0;
@@ -158,9 +160,10 @@ margin-top: 4em;
       background-size: cover;
       background-position: left;
       background-repeat: no-repeat;
+      opacity: .5;
   }
   #innerSlide2{
-    background-image: url("asset/banner6.jpg");
+    background-image: url("asset/banner6 (2).jpg");
     position: absolute;
     top: 0;
     left: 0;
@@ -170,9 +173,10 @@ margin-top: 4em;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 0.6;
 }
 #innerSlide3{
-    background-image: url("asset/banner7.jpg");
+    background-image: url("asset/banner7 (2).jpg");
     position: absolute;
     top: 0;
     left: 0;
@@ -182,9 +186,13 @@ margin-top: 4em;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-opacity: .3;
 }
 .about{
-  background-image: url(asset/banner2.jpg);
+  background-image: ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -192,22 +200,31 @@ margin-top: 4em;
       flex-direction: row;
       flex-wrap: wrap;
 }
+.about hr{
+  width:60%;
+  height:3px;
+  background-color: rgb(240, 236, 0);
+  border-radius: 5px;
+  border:hidden;
+}
 .about h1{
 width: 65%;
 text-align: center;
-color: whitesmoke;
+color: black;
 margin-top: 7.5%;
 font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+
 }
 .about h2{
   width: 50%;
   text-align: center;
-  color: whitesmoke;
+  color: black;
   margin-top:-2em;
   font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  
   }
 footer {
-    background-color: rgb(230, 230, 230);
+    background-color: white;
     height: 25px;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
     color: black;
@@ -232,18 +249,9 @@ footer a:visited{
   color: rgb(180, 153, 1);
   text-decoration: none;
 }
-#myBtn{
-  border:hidden;
-  cursor: pointer;
-  background: none;
-  align-items: middle;
-  text-align: center;
-}
-#myBtn img{
-  border:hidden;
-  width: 3em;
-  height: 3em;
-  background: none;
- 
+
+#logo{
+  width: auto;
+  height: 45px;
 }
 
